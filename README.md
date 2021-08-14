@@ -2,7 +2,7 @@
 
 Using python, I utilized the <code>requests</code> library to scrape data from the [website](http://bagong.pagasa.dost.gov.ph) of the Philippine Atmospheric, Geophysical and Astronomical Services Administration (PAGASA). 
 
-Two different data are scraped from the website:
+Two different sets of data are scraped from the website:
 1. Water level
 2. Rainfall 
 
