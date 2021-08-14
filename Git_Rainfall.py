@@ -27,8 +27,8 @@ detList_URL = "http://121.58.193.173:8080/rainfall/detail_list.do"
     # Start data from site: 2021-04-08 11:40 so I will iterate from today 23:50 to 2021-04-09 00
     # today = date.today().strftime("%Y%m%d")
 
-# 1---------- FOR 1-DAY DATA DOWNLOAD -----------
-
+# ---------- FOR 1-DAY DATA DOWNLOAD -----------
+#Can be edited to collect historical data for a certain time period
 today = date.today() #inclusive
 #today = date(2021, 7, 9) #for testing
 dates_list = []
@@ -37,8 +37,6 @@ todayStr = today.strftime("%Y%m%d")
 todayStr = todayStr + "2350"
 dates_list.append(todayStr)
 print(dates_list)
-
-# 2---------- FOR 1-DAY DATA DOWNLOAD -----------
 
 # 1~~~~~~~~~~~~~~    GET STATION INFO   ~~~~~~~~~~~~~~~
 
